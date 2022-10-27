@@ -1,0 +1,2 @@
+# PazaramaBitirmeProjesi
+Alış-veriş Aplikasyonu
