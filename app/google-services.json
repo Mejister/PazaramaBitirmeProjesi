@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "71932347065",
+    "project_id": "pazarama-projet",
+    "storage_bucket": "pazarama-projet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71932347065:android:23ebb697b3cdccd273d168",
+        "android_client_info": {
+          "package_name": "com.example.pazarama_bitirme_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71932347065-uj96m5vghirugl22796rq1selcac5ifh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pazarama_bitirme_app",
+            "certificate_hash": "d8a8b31907c504829dd1f5a9c1bfad9211ffaac1"
+          }
+        },
+        {
+          "client_id": "71932347065-suj8mk52ifrpddrpm658h6lq8il7dj76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUTfpJENhFyhN9t2ZP2sOv36OJf5KsgcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71932347065-suj8mk52ifrpddrpm658h6lq8il7dj76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

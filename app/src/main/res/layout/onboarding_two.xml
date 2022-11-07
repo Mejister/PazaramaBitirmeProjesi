@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ivOnboardtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nicheservice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/twHeadingOnboardingtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivOnboardtwo"
+        android:text="Sayfasına"
+        tools:text="trythis" />
+
+    <TextView
+        android:id="@+id/twSubtitletwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:textColor="#849DC8"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Yaşadıklarını kâr sayma: Yaşadığın kadar yakınsın sonuna; ne kadar yaşarsan yaşa,Sevdiğin kadardır ömrün..Gülebildiğin kadar mutlusun.Üzülme bil ki ağladığın kadar güleceksin.Sakın bitti sanma her şeyi,Sevdiğin kadar sevileceksin."
+        app:layout_constraintTop_toBottomOf="@+id/twHeadingOnboardingtwo"
+        tools:text="asdadasd" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

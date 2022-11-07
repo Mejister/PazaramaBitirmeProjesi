@@ -1,0 +1,144 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="dataHolder"
+            type="com.example.pazarama_bitirme_app.data.model.Product" />
+
+        <variable
+            name="listener"
+            type="com.example.pazarama_bitirme_app.feature.home.adapter.HomeDetailAdapter" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cvImage"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/ivMoviePoster"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_mall"
+                tools:src="@drawable/ic_vector" />
+
+
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/tvDescrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Descrip"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cvImage" />
+
+        <TextView
+            android:id="@+id/tvRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="asdasdasdasdasdasd"
+            android:textSize="16dp"
+            android:paddingRight="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDescrip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:paddingLeft="8dp"
+            android:text="asdasdasdasdasdasd"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tvRate"
+            app:layout_constraintTop_toBottomOf="@+id/tvDescrip" />
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/cvImage"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </androidx.cardview.widget.CardView>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:backgroundTint="@null"
+            android:text="Add Card"/>
+
+
+
+            <ImageView
+                android:id="@+id/ivNeg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="58dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/ic_baseline_exposure_neg_1_24"
+                app:layout_constraintRight_toLeftOf="@+id/tvQuenty"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvRate" />
+
+            <TextView
+
+                android:id="@+id/tvQuenty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTintMode="@null"
+                android:shadowRadius="@integer/material_motion_duration_short_1"
+                android:text="Tane"
+                app:layout_constraintLeft_toRightOf="@+id/ivNeg"
+                app:layout_constraintRight_toLeftOf="@+id/ivPlus"
+                tools:layout_editor_absoluteX="74dp"
+                tools:layout_editor_absoluteY="560dp" />
+
+            <ImageView
+                android:id="@+id/ivPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/ic_baseline_exposure_plus_1_24"
+                app:layout_constraintLeft_toRightOf="@+id/tvQuenty"
+                tools:layout_editor_absoluteY="560dp" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
